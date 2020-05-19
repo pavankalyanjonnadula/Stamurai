@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B8E37F42473E98D00553130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E37F32473E98D00553130 /* AppDelegate.swift */; };
+		2B8E37F62473E98D00553130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E37F52473E98D00553130 /* SceneDelegate.swift */; };
+		2B8E37F82473E98D00553130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E37F72473E98D00553130 /* ViewController.swift */; };
+		2B8E37FB2473E98D00553130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E37F92473E98D00553130 /* Main.storyboard */; };
+		2B8E37FE2473E98D00553130 /* Stamurai.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E37FC2473E98D00553130 /* Stamurai.xcdatamodeld */; };
+		2B8E38002473E9C300553130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E37FF2473E9C300553130 /* Assets.xcassets */; };
+		2B8E38032473E9C300553130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8E38012473E9C300553130 /* LaunchScreen.storyboard */; };
+		2B8E380E2473E9C500553130 /* StamuraiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E380D2473E9C500553130 /* StamuraiTests.swift */; };
+		2B8E38192473E9C500553130 /* StamuraiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E38182473E9C500553130 /* StamuraiUITests.swift */; };
+		2B8E38282473F15C00553130 /* SelectRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E38272473F15C00553130 /* SelectRatingViewController.swift */; };
+		2B8E382A2473F18500553130 /* ShowPreviousRatingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E38292473F18500553130 /* ShowPreviousRatingsVC.swift */; };
+		2B8E382C2473F27400553130 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E382B2473F27400553130 /* CoreDataHelper.swift */; };
+		2B8E38312473F8E600553130 /* Range+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E382F2473F8E600553130 /* Range+CoreDataClass.swift */; };
+		2B8E38322473F8E600553130 /* Range+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8E38302473F8E600553130 /* Range+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B8E380A2473E9C500553130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B8E37E82473E98C00553130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8E37EF2473E98D00553130;
+			remoteInfo = Stamurai;
+		};
+		2B8E38152473E9C500553130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B8E37E82473E98C00553130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8E37EF2473E98D00553130;
+			remoteInfo = Stamurai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B8E37F02473E98D00553130 /* Stamurai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stamurai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8E37F32473E98D00553130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B8E37F52473E98D00553130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B8E37F72473E98D00553130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B8E37FA2473E98D00553130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B8E37FD2473E98D00553130 /* Stamurai.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stamurai.xcdatamodel; sourceTree = "<group>"; };
+		2B8E37FF2473E9C300553130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B8E38022473E9C300553130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B8E38042473E9C300553130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8E38092473E9C500553130 /* StamuraiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StamuraiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8E380D2473E9C500553130 /* StamuraiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StamuraiTests.swift; sourceTree = "<group>"; };
+		2B8E380F2473E9C500553130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8E38142473E9C500553130 /* StamuraiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StamuraiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8E38182473E9C500553130 /* StamuraiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StamuraiUITests.swift; sourceTree = "<group>"; };
+		2B8E381A2473E9C500553130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8E38272473F15C00553130 /* SelectRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRatingViewController.swift; sourceTree = "<group>"; };
+		2B8E38292473F18500553130 /* ShowPreviousRatingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPreviousRatingsVC.swift; sourceTree = "<group>"; };
+		2B8E382B2473F27400553130 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		2B8E382F2473F8E600553130 /* Range+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Range+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2B8E38302473F8E600553130 /* Range+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Range+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8E37ED2473E98D00553130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8E38062473E9C500553130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8E38112473E9C500553130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8E37E72473E98C00553130 = {
+			isa = PBXGroup;
+			children = (
+				2B8E37F22473E98D00553130 /* Stamurai */,
+				2B8E380C2473E9C500553130 /* StamuraiTests */,
+				2B8E38172473E9C500553130 /* StamuraiUITests */,
+				2B8E37F12473E98D00553130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B8E37F12473E98D00553130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E37F02473E98D00553130 /* Stamurai.app */,
+				2B8E38092473E9C500553130 /* StamuraiTests.xctest */,
+				2B8E38142473E9C500553130 /* StamuraiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B8E37F22473E98D00553130 /* Stamurai */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E382E2473F8BC00553130 /* Models */,
+				2B8E38262473F13D00553130 /* Views */,
+				2B8E37F32473E98D00553130 /* AppDelegate.swift */,
+				2B8E37F52473E98D00553130 /* SceneDelegate.swift */,
+				2B8E382B2473F27400553130 /* CoreDataHelper.swift */,
+				2B8E37F92473E98D00553130 /* Main.storyboard */,
+				2B8E37FF2473E9C300553130 /* Assets.xcassets */,
+				2B8E38012473E9C300553130 /* LaunchScreen.storyboard */,
+				2B8E38042473E9C300553130 /* Info.plist */,
+				2B8E37FC2473E98D00553130 /* Stamurai.xcdatamodeld */,
+			);
+			path = Stamurai;
+			sourceTree = "<group>";
+		};
+		2B8E380C2473E9C500553130 /* StamuraiTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E380D2473E9C500553130 /* StamuraiTests.swift */,
+				2B8E380F2473E9C500553130 /* Info.plist */,
+			);
+			path = StamuraiTests;
+			sourceTree = "<group>";
+		};
+		2B8E38172473E9C500553130 /* StamuraiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E38182473E9C500553130 /* StamuraiUITests.swift */,
+				2B8E381A2473E9C500553130 /* Info.plist */,
+			);
+			path = StamuraiUITests;
+			sourceTree = "<group>";
+		};
+		2B8E38262473F13D00553130 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E37F72473E98D00553130 /* ViewController.swift */,
+				2B8E38272473F15C00553130 /* SelectRatingViewController.swift */,
+				2B8E38292473F18500553130 /* ShowPreviousRatingsVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B8E382E2473F8BC00553130 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B8E382F2473F8E600553130 /* Range+CoreDataClass.swift */,
+				2B8E38302473F8E600553130 /* Range+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B8E37EF2473E98D00553130 /* Stamurai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8E381D2473E9C500553130 /* Build configuration list for PBXNativeTarget "Stamurai" */;
+			buildPhases = (
+				2B8E37EC2473E98D00553130 /* Sources */,
+				2B8E37ED2473E98D00553130 /* Frameworks */,
+				2B8E37EE2473E98D00553130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stamurai;
+			productName = Stamurai;
+			productReference = 2B8E37F02473E98D00553130 /* Stamurai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B8E38082473E9C500553130 /* StamuraiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8E38202473E9C500553130 /* Build configuration list for PBXNativeTarget "StamuraiTests" */;
+			buildPhases = (
+				2B8E38052473E9C500553130 /* Sources */,
+				2B8E38062473E9C500553130 /* Frameworks */,
+				2B8E38072473E9C500553130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B8E380B2473E9C500553130 /* PBXTargetDependency */,
+			);
+			name = StamuraiTests;
+			productName = StamuraiTests;
+			productReference = 2B8E38092473E9C500553130 /* StamuraiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B8E38132473E9C500553130 /* StamuraiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8E38232473E9C500553130 /* Build configuration list for PBXNativeTarget "StamuraiUITests" */;
+			buildPhases = (
+				2B8E38102473E9C500553130 /* Sources */,
+				2B8E38112473E9C500553130 /* Frameworks */,
+				2B8E38122473E9C500553130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B8E38162473E9C500553130 /* PBXTargetDependency */,
+			);
+			name = StamuraiUITests;
+			productName = StamuraiUITests;
+			productReference = 2B8E38142473E9C500553130 /* StamuraiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B8E37E82473E98C00553130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Pavan Kalyan Jonnadula";
+				TargetAttributes = {
+					2B8E37EF2473E98D00553130 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					2B8E38082473E9C500553130 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 2B8E37EF2473E98D00553130;
+					};
+					2B8E38132473E9C500553130 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 2B8E37EF2473E98D00553130;
+					};
+				};
+			};
+			buildConfigurationList = 2B8E37EB2473E98D00553130 /* Build configuration list for PBXProject "Stamurai" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B8E37E72473E98C00553130;
+			productRefGroup = 2B8E37F12473E98D00553130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B8E37EF2473E98D00553130 /* Stamurai */,
+				2B8E38082473E9C500553130 /* StamuraiTests */,
+				2B8E38132473E9C500553130 /* StamuraiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B8E37EE2473E98D00553130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8E38032473E9C300553130 /* LaunchScreen.storyboard in Resources */,
+				2B8E38002473E9C300553130 /* Assets.xcassets in Resources */,
+				2B8E37FB2473E98D00553130 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8E38072473E9C500553130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8E38122473E9C500553130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8E37EC2473E98D00553130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8E38282473F15C00553130 /* SelectRatingViewController.swift in Sources */,
+				2B8E37F82473E98D00553130 /* ViewController.swift in Sources */,
+				2B8E37F42473E98D00553130 /* AppDelegate.swift in Sources */,
+				2B8E382C2473F27400553130 /* CoreDataHelper.swift in Sources */,
+				2B8E37F62473E98D00553130 /* SceneDelegate.swift in Sources */,
+				2B8E38322473F8E600553130 /* Range+CoreDataProperties.swift in Sources */,
+				2B8E38312473F8E600553130 /* Range+CoreDataClass.swift in Sources */,
+				2B8E37FE2473E98D00553130 /* Stamurai.xcdatamodeld in Sources */,
+				2B8E382A2473F18500553130 /* ShowPreviousRatingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8E38052473E9C500553130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8E380E2473E9C500553130 /* StamuraiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8E38102473E9C500553130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8E38192473E9C500553130 /* StamuraiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B8E380B2473E9C500553130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8E37EF2473E98D00553130 /* Stamurai */;
+			targetProxy = 2B8E380A2473E9C500553130 /* PBXContainerItemProxy */;
+		};
+		2B8E38162473E9C500553130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8E37EF2473E98D00553130 /* Stamurai */;
+			targetProxy = 2B8E38152473E9C500553130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B8E37F92473E98D00553130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8E37FA2473E98D00553130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B8E38012473E9C300553130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8E38022473E9C300553130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B8E381B2473E9C500553130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B8E381C2473E9C500553130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B8E381E2473E9C500553130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Stamurai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paone.Stamurai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B8E381F2473E9C500553130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Stamurai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paone.Stamurai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B8E38212473E9C500553130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StamuraiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paone.StamuraiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stamurai.app/Stamurai";
+			};
+			name = Debug;
+		};
+		2B8E38222473E9C500553130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StamuraiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paone.StamuraiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stamurai.app/Stamurai";
+			};
+			name = Release;
+		};
+		2B8E38242473E9C500553130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StamuraiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paone.StamuraiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stamurai;
+			};
+			name = Debug;
+		};
+		2B8E38252473E9C500553130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StamuraiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paone.StamuraiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stamurai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B8E37EB2473E98D00553130 /* Build configuration list for PBXProject "Stamurai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8E381B2473E9C500553130 /* Debug */,
+				2B8E381C2473E9C500553130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8E381D2473E9C500553130 /* Build configuration list for PBXNativeTarget "Stamurai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8E381E2473E9C500553130 /* Debug */,
+				2B8E381F2473E9C500553130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8E38202473E9C500553130 /* Build configuration list for PBXNativeTarget "StamuraiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8E38212473E9C500553130 /* Debug */,
+				2B8E38222473E9C500553130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8E38232473E9C500553130 /* Build configuration list for PBXNativeTarget "StamuraiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8E38242473E9C500553130 /* Debug */,
+				2B8E38252473E9C500553130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B8E37FC2473E98D00553130 /* Stamurai.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B8E37FD2473E98D00553130 /* Stamurai.xcdatamodel */,
+			);
+			currentVersion = 2B8E37FD2473E98D00553130 /* Stamurai.xcdatamodel */;
+			path = Stamurai.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B8E37E82473E98C00553130 /* Project object */;
+}
